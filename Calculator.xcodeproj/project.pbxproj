@@ -14,6 +14,8 @@
 		BE05E4D328FD96F900954FA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE05E4D128FD96F900954FA9 /* LaunchScreen.storyboard */; };
 		BE05E4E028FD9C6600954FA9 /* MainStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05E4DF28FD9C6600954FA9 /* MainStackView.swift */; };
 		BE05E4E328FDA79200954FA9 /* UIStackView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05E4E228FDA79200954FA9 /* UIStackView + Extensions.swift */; };
+		BE05E4E628FED0DA00954FA9 /* OperationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05E4E528FED0DA00954FA9 /* OperationModel.swift */; };
+		BE05E4E828FED14200954FA9 /* CalculationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05E4E728FED14200954FA9 /* CalculationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		BE05E4D428FD96F900954FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE05E4DF28FD9C6600954FA9 /* MainStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainStackView.swift; sourceTree = "<group>"; };
 		BE05E4E228FDA79200954FA9 /* UIStackView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extensions.swift"; sourceTree = "<group>"; };
+		BE05E4E528FED0DA00954FA9 /* OperationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationModel.swift; sourceTree = "<group>"; };
+		BE05E4E728FED14200954FA9 /* CalculationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		BE05E4DC28FD996200954FA9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BE05E4E528FED0DA00954FA9 /* OperationModel.swift */,
+				BE05E4E728FED14200954FA9 /* CalculationModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -198,7 +204,9 @@
 			files = (
 				BE05E4E028FD9C6600954FA9 /* MainStackView.swift in Sources */,
 				BE05E4CB28FD96F800954FA9 /* MainViewController.swift in Sources */,
+				BE05E4E828FED14200954FA9 /* CalculationModel.swift in Sources */,
 				BE05E4C728FD96F800954FA9 /* AppDelegate.swift in Sources */,
+				BE05E4E628FED0DA00954FA9 /* OperationModel.swift in Sources */,
 				BE05E4E328FDA79200954FA9 /* UIStackView + Extensions.swift in Sources */,
 				BE05E4C928FD96F800954FA9 /* SceneDelegate.swift in Sources */,
 			);

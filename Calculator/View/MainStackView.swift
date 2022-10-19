@@ -7,9 +7,20 @@
 
 import UIKit
 
+//Для передачи данных в вью контроллер используем протокол + слабую ссылку на переменную с делегатом
+protocol MainStackViewProtocol: AnyObject {
+    
+    func numberButtonData(buttonTag: Int)
+    
+    func actionButtonData(buttonTag: Int)
+}
+
 class MainStackView: UIStackView {
     
     private var stackViewsArray = [UIStackView]()
+    
+    //Слабая переменная с делегатом
+    weak var delegate: MainStackViewProtocol?
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -44,7 +55,8 @@ class MainStackView: UIStackView {
     }
     
     @objc private func calculatorButtonTapped(sender: UIButton) {
-        print(sender.tag)
+        //Передаем через делегата данные о теге нажатой кнопки, в зависимости от кнопки работают 2 разных метода
+        sender.tag < 10 ? delegate?.numberButtonData(buttonTag: sender.tag) : delegate?.actionButtonData(buttonTag: sender.tag)
     }
     
     private func setupMainStackView() {
