@@ -16,6 +16,8 @@
 		BE05E4E328FDA79200954FA9 /* UIStackView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05E4E228FDA79200954FA9 /* UIStackView + Extensions.swift */; };
 		BE05E4E628FED0DA00954FA9 /* OperationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05E4E528FED0DA00954FA9 /* OperationModel.swift */; };
 		BE05E4E828FED14200954FA9 /* CalculationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05E4E728FED14200954FA9 /* CalculationModel.swift */; };
+		BEC2B833290582B700B6CFBD /* Double + Extencions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC2B832290582B700B6CFBD /* Double + Extencions.swift */; };
+		BEC2B8352905848400B6CFBD /* String + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC2B8342905848400B6CFBD /* String + Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		BE05E4E228FDA79200954FA9 /* UIStackView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extensions.swift"; sourceTree = "<group>"; };
 		BE05E4E528FED0DA00954FA9 /* OperationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationModel.swift; sourceTree = "<group>"; };
 		BE05E4E728FED14200954FA9 /* CalculationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationModel.swift; sourceTree = "<group>"; };
+		BEC2B832290582B700B6CFBD /* Double + Extencions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double + Extencions.swift"; sourceTree = "<group>"; };
+		BEC2B8342905848400B6CFBD /* String + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,8 @@
 		BE05E4E128FDA76300954FA9 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				BEC2B832290582B700B6CFBD /* Double + Extencions.swift */,
+				BEC2B8342905848400B6CFBD /* String + Extensions.swift */,
 				BE05E4E428FDA79D00954FA9 /* UIKit */,
 			);
 			path = Extensions;
@@ -203,7 +209,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE05E4E028FD9C6600954FA9 /* MainStackView.swift in Sources */,
+				BEC2B8352905848400B6CFBD /* String + Extensions.swift in Sources */,
 				BE05E4CB28FD96F800954FA9 /* MainViewController.swift in Sources */,
+				BEC2B833290582B700B6CFBD /* Double + Extencions.swift in Sources */,
 				BE05E4E828FED14200954FA9 /* CalculationModel.swift in Sources */,
 				BE05E4C728FD96F800954FA9 /* AppDelegate.swift in Sources */,
 				BE05E4E628FED0DA00954FA9 /* OperationModel.swift in Sources */,

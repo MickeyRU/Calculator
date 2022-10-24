@@ -7,10 +7,10 @@
 
 import Foundation
 
-enum Operations {
-    case noAction
-    case addition
-    case substraction
-    case multyplication
-    case division
+enum Operations: String {
+    case noAction = ""
+    case addition = "+"
+    case substraction = "-"
+    case multyplication = "*"
+    case division = "/"
 }
